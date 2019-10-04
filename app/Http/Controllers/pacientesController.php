@@ -121,6 +121,6 @@ $idt=$t->id;
 		
 		$p->delete();
 		
-		return redirect()->action('pacientesController@getIndex');
+		return back();
 	}
 }
